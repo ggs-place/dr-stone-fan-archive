@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071014">
+  <meta name="description" content="Explore every Dr. Stone anime season and episode through an interactive science-inspired fan archive.">
+  <meta name="keywords" content="Dr. Stone, anime, episode guide, season guide, Senku, Kingdom of Science">
+  <meta name="author" content="ggs-place">
+  <meta property="og:title" content="Dr. Stone Fan Archive">
+  <meta property="og:description" content="A season-wise Dr. Stone episode archive with expandable episode cards.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ggs-place.github.io/dr-stone-fan-archive/">
+  <meta property="og:image" content="https://ggs-place.github.io/dr-stone-fan-archive/assets/background.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dr. Stone Fan Archive">
+  <meta name="twitter:description" content="A science-inspired interactive Dr. Stone anime episode archive.">
+  <meta name="twitter:image" content="https://ggs-place.github.io/dr-stone-fan-archive/assets/background.jpg">
+  <title>Dr. Stone Fan Archive — Season & Episode Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="orientation-warning">
+    <div class="warning-icon">↻</div>
+    <h1>Rotate Your Device</h1>
+    <p>This experience is designed for landscape mode.</p>
+  </div>
+
+  <main class="site-shell">
+    <header class="hero">
+      <div class="hero-overlay"></div>
+
+      <nav class="navbar">
+        <a href="#" class="brand">
+          <span class="brand-mark">⚗</span>
+          <span>DR. STONE</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="#seasons">Episodes</a>
+          <a href="#about">About</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">SCIENCE WILL CHANGE THE WORLD</p>
+        <h1>Rebuild Civilization<br><span>From Zero.</span></h1>
+        <p class="hero-description">
+          Explore every major episode, invention, battle, and breakthrough
+          across the Dr. Stone anime.
+        </p>
+        <a href="#seasons" class="primary-button">Explore Episodes <span>↓</span></a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <strong>4</strong>
+          <span>Seasons</span>
+        </div>
+        <div>
+          <strong>94</strong>
+          <span>Episodes</span>
+        </div>
+        <div>
+          <strong>3,700+</strong>
+          <span>Years Later</span>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="intro-section">
+      <div>
+        <p class="eyebrow">THE KINGDOM OF SCIENCE</p>
+        <h2>Every discovery<br><span>starts with curiosity.</span></h2>
+      </div>
+
+      <p class="intro-copy">
+        Follow Senku and the Kingdom of Science as they restore technology,
+        form unlikely alliances, and push humanity toward the stars.
+        Expand a season to browse its episode-by-episode story guide.
+      </p>
+    </section>
+
+    <section id="seasons" class="seasons-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EPISODE ARCHIVE</p>
+          <h2>Season by Season</h2>
+        </div>
+
+        <button id="expandAll" class="outline-button">
+          Expand All
+        </button>
+      </div>
+
+      <div id="seasonList"></div>
+    </section>
+
+    <footer>
+      <p>DR. STONE FAN ARCHIVE</p>
+      <span>Built for the Kingdom of Science</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
